@@ -50,7 +50,7 @@ def start_training(char_name, char_class):
               f'Если не хочешь тренироваться, введи команду skip.')
     cmd = None
     while cmd != 'skip':
-        cmd = input('Введи команду: ')
+        cmd = input('Введи команду:')
         if cmd == 'attack':
             print(attack(char_name, char_class))
         if cmd == 'defence':
